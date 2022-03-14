@@ -1,0 +1,92 @@
+CRITICAL - 2022-02-24 00:12:53 --> Cannot redeclare App\Controllers\News::view()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-24 00:22:43 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('news/create', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\News.php(63): view('news/create', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\News->create()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-24 00:40:45 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('news/create', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\News.php(65): view('news/create', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\News->create()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-24 00:41:05 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('news/create', Array, true)
+#2 C:\xampp\htdocs\ci4\app\Controllers\News.php(65): view('news/create', Array)
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\News->create()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-24 05:29:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::like()
+#0 C:\xampp\htdocs\ci4\app\Controllers\News.php(142): App\Models\NewsModel->search('fg')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\News->search()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 05:56:59 --> Call to undefined method App\Models\NewsModel::getCat
+#0 C:\xampp\htdocs\ci4\app\Controllers\News.php(107): CodeIgniter\Model->__call('getCat', Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\News->create()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 05:59:00 --> Call to undefined method App\Models\NewsModel::catSelect
+#0 C:\xampp\htdocs\ci4\app\Controllers\News.php(109): CodeIgniter\Model->__call('catSelect', Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\News->create()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 05:59:01 --> Call to undefined method App\Models\NewsModel::catSelect
+#0 C:\xampp\htdocs\ci4\app\Controllers\News.php(109): CodeIgniter\Model->__call('catSelect', Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\News->create()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 06:04:19 --> Call to undefined method App\Models\NewsModel::getCat
+#0 C:\xampp\htdocs\ci4\app\Controllers\News.php(47): CodeIgniter\Model->__call('getCat', Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\News->world()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-24 23:25:08 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-02-24 23:46:55 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-24 23:56:41 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\News->create()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-24 23:58:17 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(825): App\Controllers\News->create()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
